@@ -1,0 +1,19 @@
+{
+  "name": "@goatui/styles",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Design tokens and shared styles for GoatUI",
+  "main": "dist/index.css",
+  "scripts": {
+    "build:tokens": "style-dictionary build --config config/style-dictionary.config.js",
+    "build:styles": "sass src/index.scss dist/index.css --no-source-map --style=expanded",
+    "build": "npm run build:tokens && npm run build:styles",
+    "lint:scss": "stylelint \"src/**/*.scss\" || true",
+    "ci": "npm run build && npm run lint:scss"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.0.0",
+    "sass": "^1.60.0",
+    "stylelint": "^15.0.0"
+  }
+}
