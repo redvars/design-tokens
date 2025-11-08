@@ -1,0 +1,17 @@
+{
+  "name": "styles",
+  "version": "1.0.0",
+  "description": "stlyes",
+  "scripts": {
+    "build": "tz build",
+    "dev": "tz build --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@terrazzo/cli": "^0.10.3",
+    "@terrazzo/plugin-css": "^0.10.4",
+    "@terrazzo/plugin-js": "^0.10.3",
+    "@terrazzo/plugin-sass": "^0.10.4"
+  }
+}
