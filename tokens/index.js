@@ -5,122 +5,112 @@
 export const tokens = {
   "color.brand.50": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        1,
-        0.9450980392156862,
-        0.9490196078431372
+        0.95,
+        0.025,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#fff1f2"
+      "alpha": 1
     },
   },
   "color.brand.100": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        1,
-        0.8470588235294118,
-        0.8588235294117647
+        0.86,
+        0.076,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#ffd8db"
+      "alpha": 1
     },
   },
   "color.brand.200": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        1,
-        0.7450980392156863,
-        0.7686274509803922
+        0.769,
+        0.136,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#ffbec4"
+      "alpha": 1
     },
   },
   "color.brand.300": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        1,
-        0.6352941176470588,
-        0.6745098039215687
+        0.679,
+        0.209,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#ffa2ac"
+      "alpha": 1
     },
   },
   "color.brand.400": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.996078431372549,
-        0.5215686274509804,
-        0.5803921568627451
+        0.589,
+        0.242,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#fe8594"
+      "alpha": 1
     },
   },
   "color.brand.500": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        1,
-        0,
-        0
+        0.499,
+        0.205,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#ff0000"
+      "alpha": 1
     },
   },
   "color.brand.600": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.8313725490196079,
-        0.2823529411764706,
-        0.3843137254901961
+        0.408,
+        0.168,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#d44862"
+      "alpha": 1
     },
   },
   "color.brand.700": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.6666666666666666,
-        0,
-        0.23529411764705882
+        0.318,
+        0.131,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#aa003c"
+      "alpha": 1
     },
   },
   "color.brand.800": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.4117647058823529,
-        0,
-        0.13333333333333333
+        0.228,
+        0.094,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#690022"
+      "alpha": 1
     },
   },
   "color.brand.900": {
     ".": {
-      "colorSpace": "srgb",
+      "colorSpace": "oklch",
       "components": [
-        0.20784313725490197,
-        0,
-        0.050980392156862744
+        0.168,
+        0.065,
+        29.2
       ],
-      "alpha": 1,
-      "hex": "#35000d"
+      "alpha": 1
     },
   },
 };
