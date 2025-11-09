@@ -1,6 +1,6 @@
 {
-  "name": "styles",
-  "version": "1.0.0",
+  "name": "@redvars/design-tokens",
+  "version": "0.0.1",
   "description": "stlyes",
   "scripts": {
     "build": "tz build",
