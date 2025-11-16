@@ -4,11 +4,13 @@ import pluginJS from "@terrazzo/plugin-js";
 import pluginSASS from "@terrazzo/plugin-sass";
 
 export default defineConfig({
-  tokens: ["./tokens.json"],
+  tokens: ["./src/color-palette.json"],
   outDir: "./dist/",
 
   plugins: [
-    pluginCSS(), // generate .css files
+    pluginCSS({
+      "legacyHex": true
+    }), // generate .css files
     pluginJS({
       js: "index.js",
       ts: "index.d.ts",
